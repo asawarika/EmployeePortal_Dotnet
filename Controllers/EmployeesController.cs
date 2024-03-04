@@ -76,6 +76,8 @@ namespace EmployeeInfoSystem.Controllers
             return NoContent();
         }
 
+
+
         // POST: api/Employees
         [HttpPost]
         public async Task<ActionResult<TblEmployee>> PostTblEmployee(TblEmployee tblEmployee)
